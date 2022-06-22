@@ -23,7 +23,7 @@ void setup() {
 
 }
 
-
+#Read values from the senors in order to detect objects
 void loop() {
  distanc = analogRead(A3); // Left Sensor
  val = map(distanc, 50, 400, 80, 10);
